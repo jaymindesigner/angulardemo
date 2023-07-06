@@ -6,12 +6,18 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './MyComponent/header/header.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { SliderComponent } from './MyComponent/slider/slider.component';
+import { ServiceComponent } from './MyComponent/service/service.component';
+import { ContactComponent } from './Mycomponent/contact/contact.component';
+import { HomeComponent } from './mycomponent/home/home.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
-    SliderComponent
+    SliderComponent,
+    ServiceComponent,
+    ContactComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
